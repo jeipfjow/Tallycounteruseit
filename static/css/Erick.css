@@ -1,0 +1,48 @@
+body {
+  text-align: center;
+  background-color: red;
+}
+
+.jorge {
+  color: #F7EBEC;
+}
+
+.book {
+  font-size: 100px;
+  color: Green;
+  margin-bottom: 10px;
+}
+
+.turi {
+  font-size: 70px;
+  width: 100px;
+  height: 100px;
+  background-color: #cb997e;
+  margin-top: 10px;
+  border-radius: 15px;
+  border-color: #cb997e;
+  border-width: 0;
+}
+
+.turi:hover {
+  cursor: grab;
+  background-color: #ddbea9;
+  border-width: 15px;
+}
+
+.minus {
+  color: Red;
+  margin-left: 10px;
+}
+
+.plus {
+  color: blue;
+  margin-right: 10px;
+}
+
+.enti {
+  color: red;
+  font-size: 40px;
+  margin-top: 20px;
+  border-radius: 15px;
+}
