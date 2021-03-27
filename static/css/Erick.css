@@ -1,48 +1,58 @@
 body {
   text-align: center;
-  background-color: red;
+  background-color: #fca311;
 }
 
-.jorge {
-  color: #F7EBEC;
+.heading {
+  color:#14213d;
 }
 
-.book {
+.number {
   font-size: 100px;
-  color: Green;
+  color: #000000;
   margin-bottom: 10px;
 }
+.manual {
+  border-style: solid;
+  border-width: medium;
+  width: 40%;
+  margin: auto;
+  background-color: #e5e5e5;
+  margin-top:20px;
 
-.turi {
+}
+
+.btn {
   font-size: 70px;
   width: 100px;
   height: 100px;
-  background-color: #cb997e;
+  background-color: #ffffff;
   margin-top: 10px;
   border-radius: 15px;
-  border-color: #cb997e;
+  border-color: #ffffff;
   border-width: 0;
 }
 
-.turi:hover {
+.btn:hover {
   cursor: grab;
-  background-color: #ddbea9;
+  background-color: #e5e5e5;
   border-width: 15px;
 }
 
 .minus {
-  color: Red;
+  color: #fca311;
   margin-left: 10px;
 }
 
 .plus {
-  color: blue;
+  color: #14213D;
   margin-right: 10px;
 }
 
-.enti {
-  color: red;
+.res {
+  color: #e5e5e5;
   font-size: 40px;
   margin-top: 20px;
   border-radius: 15px;
+  background-color: #14213d;
 }
