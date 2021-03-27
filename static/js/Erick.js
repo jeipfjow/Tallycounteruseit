@@ -3,9 +3,9 @@ let number = document.getElementById("number");
 let plus = document.getElementById("plus");
 let res = document.getElementById("res");
 
-plus.addEventListener("click", addup);
+plus.addEventListener("click", addUp);
 
-function addup() {
+function addUp() {
   let currentNum = number.innerHTML;
   number.innerHTML = Number(currentNum) + 1;
 }
@@ -23,4 +23,18 @@ res.addEventListener("click", mal);
 
 function mal() {
   number.innerHTML = 0;
+}
+document.addEventListener("keydown", die);
+
+function die(event) {
+  if (event.key === "a" || event.key === "+") {
+    addUp();
+  } else if (event.key === "s" || event.key === "-") {
+    minusDown();
+  } else if (event.key === "r"|| event.key === "0") {
+    mal();
+
+  }
+
+
 }
